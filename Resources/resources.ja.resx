@@ -1,0 +1,570 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Active" xml:space="preserve">
+    <value>アクティブ</value>
+  </data>
+  <data name="Add" xml:space="preserve">
+    <value>追加</value>
+  </data>
+  <data name="AddAppoint" xml:space="preserve">
+    <value>予定を追加</value>
+  </data>
+  <data name="AddApptTitle" xml:space="preserve">
+    <value>予定を追加</value>
+  </data>
+  <data name="AddCustomer" xml:space="preserve">
+    <value>顧客を追加</value>
+  </data>
+  <data name="Address" xml:space="preserve">
+    <value>住所</value>
+  </data>
+  <data name="AllMonths" xml:space="preserve">
+    <value>すべての月</value>
+  </data>
+  <data name="Alphanum" xml:space="preserve">
+    <value>ユーザー名は英数字である必要があります</value>
+  </data>
+  <data name="AppointmentReminder" xml:space="preserve">
+    <value>～との約束があります</value>
+  </data>
+  <data name="AppointmentReport" xml:space="preserve">
+    <value>予約</value>
+  </data>
+  <data name="ApptAddSuccess" xml:space="preserve">
+    <value>予定が正常に追加されました</value>
+  </data>
+  <data name="ApptAlert" xml:space="preserve">
+    <value>予約アラート</value>
+  </data>
+  <data name="ApptDelFail" xml:space="preserve">
+    <value>予定の削除に失敗しました</value>
+  </data>
+  <data name="ApptDelFailLink" xml:space="preserve">
+    <value>予定の削除に失敗しました。 他のデータにリンクされている可能性があります。</value>
+  </data>
+  <data name="ApptDelSuccess" xml:space="preserve">
+    <value>予定が正常に削除されました</value>
+  </data>
+  <data name="ApptFetchError" xml:space="preserve">
+    <value>予約情報の取得中にエラーが発生しました</value>
+  </data>
+  <data name="ApptGetAllError" xml:space="preserve">
+    <value>すべての予定を取得中にエラーが発生しました</value>
+  </data>
+  <data name="ApptModFailed" xml:space="preserve">
+    <value>予定を更新できませんでした</value>
+  </data>
+  <data name="ApptModSuccess" xml:space="preserve">
+    <value>予定が正常に更新されました</value>
+  </data>
+  <data name="ApptNotFound" xml:space="preserve">
+    <value>予約が見つかりません</value>
+  </data>
+  <data name="AreYouSure" xml:space="preserve">
+    <value>この予定を削除してもよろしいですか?</value>
+  </data>
+  <data name="AreYouSureCust" xml:space="preserve">
+    <value>この顧客を削除してもよろしいですか?</value>
+  </data>
+  <data name="CalendarButton" xml:space="preserve">
+    <value>カレンダービュー</value>
+  </data>
+  <data name="CalendarLabel" xml:space="preserve">
+    <value>カレンダー</value>
+  </data>
+  <data name="CalendarView" xml:space="preserve">
+    <value>カレンダービュー</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="Cancelled" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="CancelTitle" xml:space="preserve">
+    <value>キャンセル</value>
+  </data>
+  <data name="City" xml:space="preserve">
+    <value>市</value>
+  </data>
+  <data name="CityAddFail" xml:space="preserve">
+    <value>都市の追加に失敗しました</value>
+  </data>
+  <data name="CityAddSuccess" xml:space="preserve">
+    <value>都市が正常に追加されました</value>
+  </data>
+  <data name="CityOpCancel" xml:space="preserve">
+    <value>操作はキャンセルされ、都市は追加されませんでした</value>
+  </data>
+  <data name="ConfirmDelAppt" xml:space="preserve">
+    <value>この予定を削除してもよろしいですか?</value>
+  </data>
+  <data name="ConfirmDelete" xml:space="preserve">
+    <value>削除の確認</value>
+  </data>
+  <data name="ConsulNotFound" xml:space="preserve">
+    <value>コンサルタントが見つかりません</value>
+  </data>
+  <data name="ConsultantTitle" xml:space="preserve">
+    <value>コンサルタント</value>
+  </data>
+  <data name="ContactTitle" xml:space="preserve">
+    <value>接触</value>
+  </data>
+  <data name="Country" xml:space="preserve">
+    <value>国</value>
+  </data>
+  <data name="CountryAddFail" xml:space="preserve">
+    <value>国の追加に失敗しました</value>
+  </data>
+  <data name="CountryAddSuccess" xml:space="preserve">
+    <value>国が正常に追加されました</value>
+  </data>
+  <data name="CountryOpCancel" xml:space="preserve">
+    <value>操作はキャンセルされ、国は追加されませんでした</value>
+  </data>
+  <data name="CustAddSuccess" xml:space="preserve">
+    <value>顧客が正常に追加されました</value>
+  </data>
+  <data name="CustApptDel" xml:space="preserve">
+    <value>この顧客には既存の予定があります。 すべての予定と顧客を削除しますか?</value>
+  </data>
+  <data name="CustDataNotAvail" xml:space="preserve">
+    <value>顧客データが利用できない</value>
+  </data>
+  <data name="CustDelSuccess" xml:space="preserve">
+    <value>顧客は正常に削除されました</value>
+  </data>
+  <data name="CustExists" xml:space="preserve">
+    <value>顧客はすでに存在します</value>
+  </data>
+  <data name="CustLabel" xml:space="preserve">
+    <value>お客様</value>
+  </data>
+  <data name="CustModFail" xml:space="preserve">
+    <value>顧客の更新に失敗しました</value>
+  </data>
+  <data name="CustModSuccess" xml:space="preserve">
+    <value>お客様は正常に更新されました</value>
+  </data>
+  <data name="CustNoDataFound" xml:space="preserve">
+    <value>指定された顧客のデータが見つかりませんでした</value>
+  </data>
+  <data name="CustomerLabel" xml:space="preserve">
+    <value>お客様</value>
+  </data>
+  <data name="CustomerName" xml:space="preserve">
+    <value>顧客名</value>
+  </data>
+  <data name="CustomerNotFound" xml:space="preserve">
+    <value>顧客が見つかりません</value>
+  </data>
+  <data name="CustomerReport" xml:space="preserve">
+    <value>お客様</value>
+  </data>
+  <data name="CustomerTitle" xml:space="preserve">
+    <value>お客様</value>
+  </data>
+  <data name="DatabaseError" xml:space="preserve">
+    <value>データベースエラー</value>
+  </data>
+  <data name="DelCust" xml:space="preserve">
+    <value>顧客の削除</value>
+  </data>
+  <data name="Delete" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="DeleteButton" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="DeleteCustAppt" xml:space="preserve">
+    <value>この顧客には既存の予定があります。 すべての予定と顧客を削除しますか?</value>
+  </data>
+  <data name="DeleteCustomer" xml:space="preserve">
+    <value>この顧客を削除してもよろしいですか?</value>
+  </data>
+  <data name="Deleted" xml:space="preserve">
+    <value>削除されました</value>
+  </data>
+  <data name="DeleteTitle" xml:space="preserve">
+    <value>消去</value>
+  </data>
+  <data name="Description" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="DescripTitle" xml:space="preserve">
+    <value>説明</value>
+  </data>
+  <data name="EmpUserPass" xml:space="preserve">
+    <value>ユーザー名とパスワードを空にすることはできません</value>
+  </data>
+  <data name="End" xml:space="preserve">
+    <value>終了時間</value>
+  </data>
+  <data name="EndAfterStart" xml:space="preserve">
+    <value>終了時間は開始時間より後である必要があります</value>
+  </data>
+  <data name="EndTitle" xml:space="preserve">
+    <value>終わり</value>
+  </data>
+  <data name="EnterCustNameDel" xml:space="preserve">
+    <value>削除する顧客名を入力してください</value>
+  </data>
+  <data name="EnterCustNameMod" xml:space="preserve">
+    <value>変更する顧客名を入力してください</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>エラー</value>
+  </data>
+  <data name="ErrorOccurred" xml:space="preserve">
+    <value>エラーが発生した</value>
+  </data>
+  <data name="ExitButton" xml:space="preserve">
+    <value>出口</value>
+  </data>
+  <data name="FailCustAdd" xml:space="preserve">
+    <value>顧客の追加に失敗しました</value>
+  </data>
+  <data name="FailCustLoad" xml:space="preserve">
+    <value>顧客の読み込みに失敗しました</value>
+  </data>
+  <data name="FailDelAppt" xml:space="preserve">
+    <value>予定の削除に失敗しました</value>
+  </data>
+  <data name="FailedCustDel" xml:space="preserve">
+    <value>顧客の削除に失敗しました</value>
+  </data>
+  <data name="FailUpdateAppt" xml:space="preserve">
+    <value>予定を更新できませんでした</value>
+  </data>
+  <data name="FieldsCannotBeEmpty" xml:space="preserve">
+    <value>フィールドを空にすることはできません。</value>
+  </data>
+  <data name="FillCustName" xml:space="preserve">
+    <value>顧客名を空にすることはできません</value>
+  </data>
+  <data name="GeneralError" xml:space="preserve">
+    <value>一般的なエラー</value>
+  </data>
+  <data name="GenericSQLError" xml:space="preserve">
+    <value>データベース接続に失敗しました</value>
+  </data>
+  <data name="InNext15Minutes" xml:space="preserve">
+    <value>次の15分以内に</value>
+  </data>
+  <data name="InputError" xml:space="preserve">
+    <value>入力エラー</value>
+  </data>
+  <data name="LocationTitle" xml:space="preserve">
+    <value>位置</value>
+  </data>
+  <data name="LoginAttemptForUser" xml:space="preserve">
+    <value>ユーザーのログイン試行</value>
+  </data>
+  <data name="LoginButton" xml:space="preserve">
+    <value>ログイン</value>
+  </data>
+  <data name="LoginError" xml:space="preserve">
+    <value>ログイン検証中にエラーが発生しました</value>
+  </data>
+  <data name="LoginErrorMsg" xml:space="preserve">
+    <value>ユーザー名とパスワードが無効です。</value>
+  </data>
+  <data name="LoginFailed" xml:space="preserve">
+    <value>ログインに失敗しました</value>
+  </data>
+  <data name="LoginFormTitle" xml:space="preserve">
+    <value>ログインポータル</value>
+  </data>
+  <data name="LoginLabel" xml:space="preserve">
+    <value>以下からログインしてください</value>
+  </data>
+  <data name="LoginSuccessful" xml:space="preserve">
+    <value>ログイン成功！</value>
+  </data>
+  <data name="MainFormTitle" xml:space="preserve">
+    <value>メインスクリーン</value>
+  </data>
+  <data name="ModApptTitle" xml:space="preserve">
+    <value>予約の変更</value>
+  </data>
+  <data name="ModCust" xml:space="preserve">
+    <value>顧客の変更</value>
+  </data>
+  <data name="Modify" xml:space="preserve">
+    <value>修正する</value>
+  </data>
+  <data name="ModifyCustomerTitle" xml:space="preserve">
+    <value>顧客の変更</value>
+  </data>
+  <data name="Name" xml:space="preserve">
+    <value>名前</value>
+  </data>
+  <data name="NoAppts" xml:space="preserve">
+    <value>予定はありません</value>
+  </data>
+  <data name="NoApptsForUser" xml:space="preserve">
+    <value>の予定は見つかりませんでした</value>
+  </data>
+  <data name="NoButton" xml:space="preserve">
+    <value>いいえ</value>
+  </data>
+  <data name="NoCustFound" xml:space="preserve">
+    <value>指定された名前の顧客は見つかりませんでした。 もう一度試指定された名前の顧客は見つかりませんでした。 もう一度試してください。</value>
+  </data>
+  <data name="NotFound" xml:space="preserve">
+    <value>見つかりません</value>
+  </data>
+  <data name="NotFoundIn" xml:space="preserve">
+    <value>では見つかりませんでした</value>
+  </data>
+  <data name="NoUserFound" xml:space="preserve">
+    <value>その名前のユーザーは見つかりませんでした</value>
+  </data>
+  <data name="NoUserFoundFix" xml:space="preserve">
+    <value>名前を確認して再試行してください</value>
+  </data>
+  <data name="OK" xml:space="preserve">
+    <value>わかりました</value>
+  </data>
+  <data name="OverlappingConsAppt" xml:space="preserve">
+    <value>このコンサルタントには重複した予定があります。 別の時間を選択してください。</value>
+  </data>
+  <data name="OverlappingCustAppt" xml:space="preserve">
+    <value>この顧客には重複する予定があります。 別の時間を選択してください。</value>
+  </data>
+  <data name="PassLabel" xml:space="preserve">
+    <value>パスワード</value>
+  </data>
+  <data name="Phone" xml:space="preserve">
+    <value>電話</value>
+  </data>
+  <data name="PhoneNumber" xml:space="preserve">
+    <value>電話番号は XXX-XXX-XXXX の形式にする必要があります</value>
+  </data>
+  <data name="PostalCode" xml:space="preserve">
+    <value>郵便番号は正確に 5 桁である必要があります</value>
+  </data>
+  <data name="ReportLabel" xml:space="preserve">
+    <value>レポート</value>
+  </data>
+  <data name="ReportViewer" xml:space="preserve">
+    <value>レポートビューア</value>
+  </data>
+  <data name="SaveButton" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="SaveTitle" xml:space="preserve">
+    <value>保存</value>
+  </data>
+  <data name="ScheduleConflict" xml:space="preserve">
+    <value>スケジュールの競合</value>
+  </data>
+  <data name="ScheduleReport" xml:space="preserve">
+    <value>スケジュール</value>
+  </data>
+  <data name="ScheduleTimes" xml:space="preserve">
+    <value>予約時間は営業時間内 (東部標準時午前 9 時から午後 5 時まで) である必要があります。</value>
+  </data>
+  <data name="ScheduleWeekday" xml:space="preserve">
+    <value>ご予約は平日（月曜日から金曜日）に行う必要があります</value>
+  </data>
+  <data name="SelectApptDel" xml:space="preserve">
+    <value>削除する予定を選択してください</value>
+  </data>
+  <data name="SelectApptMod" xml:space="preserve">
+    <value>変更する予定を選択してください</value>
+  </data>
+  <data name="SelectApptType" xml:space="preserve">
+    <value>予約の種類を選択してください</value>
+  </data>
+  <data name="SelectConsul" xml:space="preserve">
+    <value>コンサルタントを選択してください</value>
+  </data>
+  <data name="SelectReq" xml:space="preserve">
+    <value>選択が必要です</value>
+  </data>
+  <data name="SelectType" xml:space="preserve">
+    <value>タイプを選択してください</value>
+  </data>
+  <data name="ShouldAddit" xml:space="preserve">
+    <value>追加しますか?</value>
+  </data>
+  <data name="SQLError" xml:space="preserve">
+    <value>MySQLエラー</value>
+  </data>
+  <data name="Start" xml:space="preserve">
+    <value>始まる時間</value>
+  </data>
+  <data name="StartBeforeEnd" xml:space="preserve">
+    <value>開始時間は終了時間より前でなければなりません</value>
+  </data>
+  <data name="StartTitle" xml:space="preserve">
+    <value>始める</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>成功</value>
+  </data>
+  <data name="Title" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="TitleTitle" xml:space="preserve">
+    <value>タイトル</value>
+  </data>
+  <data name="TypeLabel" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="TypeTitle" xml:space="preserve">
+    <value>タイプ</value>
+  </data>
+  <data name="URLTitle" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="UserLabel" xml:space="preserve">
+    <value>ユーザー名</value>
+  </data>
+  <data name="UserNotEmpty" xml:space="preserve">
+    <value>ユーザー名を空にすることはできません</value>
+  </data>
+  <data name="UserNotFound" xml:space="preserve">
+    <value>無効なユーザー</value>
+  </data>
+  <data name="UserScheduleName" xml:space="preserve">
+    <value>ユーザーの名前を入力してスケジュールを表示します</value>
+  </data>
+  <data name="UserScheduleReport" xml:space="preserve">
+    <value>ユーザースケジュールレポート</value>
+  </data>
+  <data name="ValidationError" xml:space="preserve">
+    <value>検証エラー</value>
+  </data>
+  <data name="WelcomeLabel" xml:space="preserve">
+    <value>いらっしゃいませ！</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="YesButton" xml:space="preserve">
+    <value>はい</value>
+  </data>
+  <data name="Zip" xml:space="preserve">
+    <value>郵便番号</value>
+  </data>
+</root>
